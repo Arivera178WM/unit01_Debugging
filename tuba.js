@@ -11,9 +11,9 @@
  */
 
 /* global variables tracking status of each form section */
-var acresComplete = false;
-var cropsComplete = false;
-var monthsComplete = false;
+var acresComplete = true;
+var cropsComplete = true;
+var monthsComplete = true;
 var fuelComplete = true;
 /* global variables referencing sidebar h2 and p elements */
 var messageHeadElement = document.getElementById("messageHead");
