@@ -4,8 +4,8 @@
  *    Tuba Farm Equipment
  *    Variables and functions
  *    
- *    Author: 
- *    Date:   
+ *    Author: Abraham Rivera Garcia
+ *    Date: 09/22/2020
 
  *    Filename: tuba.js
  */
@@ -110,7 +110,7 @@ function createRecommendation() {
     // add suffix to model name based on fuel choice
     messageHeadElement.innerHTML += "E";
   } else if (document.getElementById("biodiesel").checked) {
-    messageHeadElement.innerHTML = "B";
+    messageHeadElement.innerHTML += "B";
   } else {
     messageHeadElement.innerHTML += "D";
   }
